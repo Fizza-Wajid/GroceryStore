@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .navbar {
+                background-color: #adeac8; 
+            }
+            .nav-link {
+  color:#013418;
+            }
+        .form-container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #adeac8;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="col-12">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" > Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"> About </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Items">Items</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback.html">Feedback</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+</div>
+<!--log in-->
+    <div class="container mt-5">
+        <div class="form-container">
+            <h2 class="text-center mb-4" id="formTitle">Login</h2>
+            <form id="authForm">
+                <div class="mb-3" id="nameField">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="xyz.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100" id="submitBtn">Login</button>
+            </form>
+            <div class="text-center mt-3">
+                <p id="Text">Don't have an account? <a href="#" id="Form">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="container-fluid bg-success py-3 mt-4">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>@copyright pantry plus all right reserved</p>
+            </div>
+</div>
+</div>
+</body>
+</html>
